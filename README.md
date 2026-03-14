@@ -8,17 +8,16 @@ This project focuses on **game animation, object-oriented design, and real-time 
 
 ## Features
 
-•	Classic 2048 gameplay
-•	Smooth tile sliding animation
-•	Winning screen & sound effect
-•	Simple and clean game interface
-•	Object-oriented game structure
-•	Lightweight C++ implementation using SFML
-
+* Classic **2048 gameplay**
+* Smooth **tile sliding animation**
+* **Winning screen & sound effect**
+* Simple and clean **game interface**
+* Object-oriented game structure
+* Lightweight C++ implementation using SFML
 
 ---
 
-##  Controls
+## Controls
 
 | Key | Action           |
 | --- | ---------------- |
@@ -116,3 +115,5 @@ game.exe
 Student project – learning **Game Development with C++ & SFML**
 
 ---
+
+
