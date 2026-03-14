@@ -1,31 +1,48 @@
-SFML 2048 Game (C++)
-A desktop implementation of the classic 2048 puzzle game developed using C++ and the SFML graphics library.
-This project focuses on game animation, object-oriented design, and real-time rendering.
-________________________________________
-Features
-•	Classic 2048 gameplay
-•	Smooth tile sliding animation
-•	Winning screen & sound effect
-•	Simple and clean game interface
-•	Object-oriented game structure
-•	Lightweight C++ implementation using SFML
-________________________________________
-Controls
-Key	Action
-↑	Move tiles up
-↓	Move tiles down
-←	Move tiles left
-→	Move tiles right
-Tiles with the same value will merge when they collide.
-________________________________________
-Game Rules
-•	The board size is 4 × 4
-•	After each move, a new tile (2 or 4) appears
-•	Merge tiles to create larger numbers
-•	Reach 2048 tile to win
-•	Game ends when no valid moves remain
-________________________________________
-Project Structure
+# SFML 2048 Game (C++)
+
+A desktop implementation of the classic **2048 puzzle game** developed using **C++** and the **SFML graphics library**.
+
+This project focuses on **game animation, object-oriented design, and real-time rendering**.
+
+---
+
+## Features
+
+* Classic **2048 gameplay**
+* Smooth **tile sliding animation**
+* **Winning screen & sound effect**
+* Simple and clean **game interface**
+* Object-oriented game structure
+* Lightweight C++ implementation using SFML
+
+---
+
+##  Controls
+
+| Key | Action           |
+| --- | ---------------- |
+| ↑   | Move tiles up    |
+| ↓   | Move tiles down  |
+| ←   | Move tiles left  |
+| →   | Move tiles right |
+
+Tiles with the same value will **merge when they collide**.
+
+---
+
+## Game Rules
+
+* The board size is **4 × 4**
+* After each move, a new tile (**2 or 4**) appears
+* Merge tiles to create larger numbers
+* Reach **2048 tile to win**
+* Game ends when no valid moves remain
+
+---
+
+## Project Structure
+
+```
 SFML-2048/
 │
 ├── SFMLGameAnimated.cpp
@@ -50,26 +67,51 @@ SFML-2048/
 ├── SFML_game.cbp
 ├── SFML_game.layout
 └── README.md
-________________________________________
- Requirements
-•	C++ Compiler (MinGW / MSVC / G++)
-•	SFML 2.x Library
+```
+
+---
+
+## Requirements
+
+* C++ Compiler (MinGW / MSVC / G++)
+* **SFML 2.x Library**
+
 Download SFML:
 https://www.sfml-dev.org/
-________________________________________
-Build & Run
+
+---
+
+## Build & Run
+
 Example (MinGW):
+
+```
 g++ SFMLGameAnimated.cpp -o game ^
 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+```
+
 Run:
+
+```
 game.exe
-________________________________________
- Future Improvements
-•	Add restart button
-•	Improve animation performance
-________________________________________
- Author
-Nguyen Ba Duc Nhan
-Student project – learning Game Development with C++ & SFML
-________________________________________
-If you like this project, please consider giving it a star.
+```
+
+---
+
+## Future Improvements
+
+* Add **score display**
+* Add **best score saving**
+* Add **restart button**
+* Improve **animation performance**
+* Add **game over screen**
+
+---
+
+## Author
+
+**Nguyen Ba Duc Nhan**
+
+Student project – learning **Game Development with C++ & SFML**
+
+---
