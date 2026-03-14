@@ -1,17 +1,16 @@
 # SFML 2048 Game (C++)
 
-A desktop implementation of the classic **2048 puzzle game** developed using **C++** and the **SFML graphics library**.
+A desktop implementation of the classic 2048 puzzle game developed using C++ and the SFML graphics library.
 
-This project focuses on **game animation, object-oriented design, and real-time rendering**.
+This project focuses on game animation, object-oriented design, and real-time rendering.
 
 ---
 
 ## Features
 
-* Classic **2048 gameplay**
-* Smooth **tile sliding animation**
-* **Winning screen & sound effect**
-* Simple and clean **game interface**
+* Classic 2048 gameplay
+* Winning screen & sound effect
+* Simple and clean game interface
 * Object-oriented game structure
 * Lightweight C++ implementation using SFML
 
@@ -26,16 +25,16 @@ This project focuses on **game animation, object-oriented design, and real-time 
 | ←   | Move tiles left  |
 | →   | Move tiles right |
 
-Tiles with the same value will **merge when they collide**.
+Tiles with the same value will merge when they collide.
 
 ---
 
 ## Game Rules
 
-* The board size is **4 × 4**
-* After each move, a new tile (**2 or 4**) appears
+* The board size is 4 × 4
+* After each move, a new tile (2 or 4) appears
 * Merge tiles to create larger numbers
-* Reach **2048 tile to win**
+* Reach 2048 tile to win
 * Game ends when no valid moves remain
 
 ---
@@ -74,7 +73,7 @@ SFML-2048/
 ## Requirements
 
 * C++ Compiler (MinGW / MSVC / G++)
-* **SFML 2.x Library**
+* SFML 2.x Library
 
 Download SFML:
 https://www.sfml-dev.org/
@@ -100,19 +99,17 @@ game.exe
 
 ## Future Improvements
 
-* Add **score display**
-* Add **best score saving**
-* Add **restart button**
-* Improve **animation performance**
-* Add **game over screen**
-
+* Add ranking table 
+* Add restart button
+* Improve animation performance
+  
 ---
 
 ## Author
 
 **Nguyen Ba Duc Nhan**
 
-Student project – learning **Game Development with C++ & SFML**
+Student project – learning Game Development with C++ & SFML
 
 ---
 
